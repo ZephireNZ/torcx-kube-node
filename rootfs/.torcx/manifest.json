@@ -5,7 +5,8 @@
             "/bin/kube-proxy",
             "/bin/kubelet",
             "/bin/kubectl",
-            "/bin/helm"
+            "/bin/helm",
+            "/bin/kubeadm"
         ],
         "units": [
             "/lib/systemd/system/kube-proxy.service",

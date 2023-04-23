@@ -35,7 +35,7 @@ helm: helm.tar.gz
 
 
 torcx: cni kube-node helm
-	cp -ar rootfs/* dist/rootfs
+	cp -ar rootfs dist/
 	mkdir -p dist/rootfs/bin
 	cp -ar build/kubernetes/node/bin/* dist/rootfs/bin/
 	cp -a build/linux-amd64/helm dist/rootfs/bin/
