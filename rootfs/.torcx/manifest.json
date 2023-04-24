@@ -10,8 +10,7 @@
         ],
         "units": [
             "/lib/systemd/system/kube-proxy.service",
-            "/lib/systemd/system/kubelet.service",
-            "/lib/systemd/system/opt-cni.mount"
+            "/lib/systemd/system/kubelet.service"
         ]
     }
 }
